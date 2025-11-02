@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section class="hero-section" id="hero">
+        <div class="hero-container">
+            <header class="hero-header">
+                <div class="brand">Cortex</div>
+                <button class="burger-menu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav">
+                    <a href="#benefits">Benefits</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#usecases">Use Cases</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#hero" class="button button-primary">Sign up</a>
+                </nav>
+                <div class="header-cta">
+                    <a class="button button-primary" href="#hero">Sign up</a>
+                </div>
+            </header>
+
+            <main class="hero-main">
+                <h1 class="hero-title">Build Custom <span class="framed-word"><span>Agents</span></span> For Your E-Commerce Strore</h1>
+                <p class="hero-subtitle">Empower your e-commerce store with intelligent AI agents that automate tasks, enhance customer experience, and drive sales.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#">Get started</a>
+                    <a class="button button-secondary" href="#">Get a demo</a>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <section class="benefits-section" id="benefits">
+        <div class="benefits-container">
+            <h2 class="benefits-title">Features</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Ready Code</h3>
+                        <p class="benefit-desc">Deploy pre-built AI agents instantly or customize them to fit your specific needs.</p>
+                    </div>
+                    <img src="ReadyCode.png" alt="Ready Code" class="benefit-image">
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Smart Automation</h3>
+                        <p class="benefit-desc">Automate customer support, inventory management, and sales workflows effortlessly.</p>
+                    </div>
+                    <img src="SmartAutomation.png" alt="Smart Automation" class="benefit-image">
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Seamless Integration</h3>
+                        <p class="benefit-desc">Connect with Shopify, WooCommerce, and major e-commerce platforms instantly.</p>
+                    </div>
+                    <img src="integrations.png" alt="Seamless Integration" class="benefit-image">
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Real-Time Analytics</h3>
+                        <p class="benefit-desc">Track agent performance and optimize your store operations with actionable insights.</p>
+                    </div>
+                    <img src="Analytics.png" alt="Real-Time Analytics" class="benefit-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works-section" id="how-it-works">
+        <div class="how-it-works-container">
+            <h2 class="how-it-works-title">How It Works</h2>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="python">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                </button>
+                <button class="lang-btn" data-lang="javascript">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                </button>
+                <button class="lang-btn" data-lang="java">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                </button>
+                <button class="lang-btn" data-lang="cpp">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                </button>
+                <button class="lang-btn" data-lang="ruby">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby">
+                </button>
+            </div>
+            <div class="code-display">
+                <pre><code id="code-content"></code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="simple-benefits-section">
+        <div class="simple-benefits-container">
+            <h2 class="simple-benefits-title">Why Choose Cortex?</h2>
+            <div class="simple-benefits-grid">
+                <div class="simple-benefit-card">
+                    <i class="fi fi-ts-hyperloop simple-benefit-icon"></i>
+                    <h3 class="simple-benefit-title">Lightning Fast</h3>
+                    <p class="simple-benefit-desc">Deploy agents in minutes, not weeks</p>
+                </div>
+                <div class="simple-benefit-card">
+                    <i class="fi fi-ts-send-money simple-benefit-icon"></i>
+                    <h3 class="simple-benefit-title">Cost Effective</h3>
+                    <p class="simple-benefit-desc">Reduce support costs by up to 70%</p>
+                </div>
+                <div class="simple-benefit-card">
+                    <i class="fi fi-tr-chart-mixed-up-circle-currency simple-benefit-icon"></i>
+                    <h3 class="simple-benefit-title">Scalable</h3>
+                    <p class="simple-benefit-desc">Handle unlimited customer interactions</p>
+                </div>
+                <div class="simple-benefit-card">
+                    <i class="fi fi-tr-fingerprint-verified simple-benefit-icon"></i>
+                    <h3 class="simple-benefit-title">Secure</h3>
+                    <p class="simple-benefit-desc">Enterprise-grade security and compliance</p>
+                </div>
+                <div class="simple-benefit-card">
+                    <i class="fi fi-tr-user-headset simple-benefit-icon"></i>
+                    <h3 class="simple-benefit-title">24/7 Support</h3>
+                    <p class="simple-benefit-desc">Always available for your customers</p>
+                </div>
+                <div class="simple-benefit-card">
+                    <i class="fi fi-ts-master-plan-integrate simple-benefit-icon"></i>
+                    <h3 class="simple-benefit-title">Easy Integration</h3>
+                    <p class="simple-benefit-desc">Works with your existing tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="usecases-section" id="usecases">
+        <div class="usecases-container">
+            <h2 class="usecases-title">Use Cases</h2>
+            <div class="usecases-list">
+                <div class="usecase-item">
+                    <div class="usecase-content">
+                        <h3 class="usecase-stat">Customer Support</h3>
+                        <p class="usecase-desc">Provide 24/7 instant responses to customer inquiries and resolve common issues automatically with AI-powered support agents.</p>
+                    </div>
+                    <div class="usecase-video">
+                        <video src="cutomersupport.mp4" autoplay loop muted playsinline></video>
+                    </div>
+                </div>
+                <div class="usecase-item">
+                    <div class="usecase-content">
+                        <h3 class="usecase-stat">Product Recommendations</h3>
+                        <p class="usecase-desc">Deliver personalized product suggestions based on customer behavior, preferences, and purchase history to increase conversions.</p>
+                    </div>
+                    <div class="usecase-video">
+                        <video src="productrecommendations.mp4" autoplay loop muted playsinline></video>
+                    </div>
+                </div>
+                <div class="usecase-item">
+                    <div class="usecase-content">
+                        <h3 class="usecase-stat">Order Tracking</h3>
+                        <p class="usecase-desc">Keep customers informed with real-time order status updates and automated delivery notifications throughout the shipping process.</p>
+                    </div>
+                    <div class="usecase-video">
+                        <video src="ordertracking.mp4" autoplay loop muted playsinline></video>
+                    </div>
+                </div>
+                <div class="usecase-item">
+                    <div class="usecase-content">
+                        <h3 class="usecase-stat">Inventory Management</h3>
+                        <p class="usecase-desc">Automate stock monitoring, receive alerts for low inventory levels, and optimize restocking decisions with AI-powered insights.</p>
+                    </div>
+                    <div class="usecase-video">
+                        <video src="inventorymanagement.mp4" autoplay loop muted playsinline></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section" id="blog">
+        <div class="blog-container">
+            <h2 class="blog-title">Latest Insights</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-date">Dec 15, 2024</span>
+                        <h3 class="blog-card-title">How AI Agents Are Transforming E-Commerce</h3>
+                        <p class="blog-excerpt">Discover how intelligent automation is reshaping online retail and driving unprecedented growth.</p>
+                        <a href="#" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-date">Dec 10, 2024</span>
+                        <h3 class="blog-card-title">5 Ways to Boost Conversions with AI</h3>
+                        <p class="blog-excerpt">Learn proven strategies to increase sales using personalized customer experiences.</p>
+                        <a href="#" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-date">Dec 5, 2024</span>
+                        <h3 class="blog-card-title">The Future of Customer Support</h3>
+                        <p class="blog-excerpt">Why 24/7 AI-powered support is becoming essential for modern e-commerce stores.</p>
+                        <a href="#" class="blog-link">Read more →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+        <div class="pricing-container">
+            <h2 class="pricing-title">Pricing</h2>
+            <div class="pricing-toggle">
+                <button class="toggle-btn active" data-period="yearly">Yearly (15% off)</button>
+                <button class="toggle-btn" data-period="monthly">Monthly</button>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="plan-name">Standard</h3>
+                    <p class="plan-desc">Perfect for small businesses getting started with AI agents</p>
+                    <div class="plan-price">
+                        <span class="price" data-yearly="12" data-monthly="14">$12</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="billing-info">Billed yearly</p>
+                    <ul class="feature-list">
+                        <li>✓ 1 AI Agent</li>
+                        <li>✓ 1,000 requests/month</li>
+                        <li>✓ Email support</li>
+                        <li>✓ Basic analytics</li>
+                    </ul>
+                    <button class="button button-secondary">Get started</button>
+                </div>
+                <div class="pricing-card popular">
+                    <span class="popular-badge">Popular</span>
+                    <h3 class="plan-name">Pro</h3>
+                    <p class="plan-desc">Ideal for growing businesses scaling their operations</p>
+                    <div class="plan-price">
+                        <span class="price" data-yearly="48" data-monthly="56">$48</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="billing-info">Billed yearly</p>
+                    <ul class="feature-list">
+                        <li>✓ 5 AI Agents</li>
+                        <li>✓ 10,000 requests/month</li>
+                        <li>✓ Priority support</li>
+                        <li>✓ Advanced analytics</li>
+                        <li>✓ Custom integrations</li>
+                        <li>✓ API access</li>
+                    </ul>
+                    <button class="button button-primary">Get started</button>
+                </div>
+                <div class="pricing-card">
+                    <h3 class="plan-name">Ultra</h3>
+                    <p class="plan-desc">For enterprises requiring maximum power and flexibility</p>
+                    <div class="plan-price">
+                        <span class="price" data-yearly="79" data-monthly="93">$79</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="billing-info">Billed yearly</p>
+                    <ul class="feature-list">
+                        <li>✓ Unlimited AI Agents</li>
+                        <li>✓ Unlimited requests</li>
+                        <li>✓ 24/7 dedicated support</li>
+                        <li>✓ Enterprise analytics</li>
+                        <li>✓ Custom integrations</li>
+                        <li>✓ White-label options</li>
+                    </ul>
+                    <button class="button button-secondary">Get started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+        <div class="faq-container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How quickly can I deploy an AI agent?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can deploy your first AI agent in minutes. Simply import our SDK, configure your agent with a few lines of code, and deploy instantly to your e-commerce platform.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Which e-commerce platforms do you support?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We support all major e-commerce platforms including Shopify, WooCommerce, Magento, BigCommerce, and custom solutions via our REST API.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I customize the AI agents?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! Our agents are fully customizable. You can modify their behavior, add custom tools, integrate with your existing systems, and train them on your specific data.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What kind of support do you offer?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer email support for Standard plans, priority support for Pro plans, and 24/7 dedicated support for Ultra plans. All plans include comprehensive documentation and community access.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is there a free trial available?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a 14-day free trial with full access to all features. No credit card required to start.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2 class="cta-title">Transform Your E-Commerce Store!</h2>
+            <p class="cta-subtitle">Join thousands of businesses using AI agents to automate and scale</p>
+            <div class="cta-actions">
+                <a class="button button-primary" href="#">Start Free Trial</a>
+                <a class="button button-secondary" href="#">Schedule Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">Cortex</div>
+                    <p class="footer-desc">Build custom AI agents for your e-commerce store</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Product</h4>
+                    <a href="#benefits">Benefits</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#usecases">Use Cases</a>
+                    <a href="#pricing">Pricing</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Company</h4>
+                    <a href="#">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Legal</h4>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Security</a>
+                </div>
+            </div>
+            <div class="footer-hero">CORTEX</div>
+        </div>
+    </footer>
+    <script>
+        const burger = document.querySelector('.burger-menu');
+        const nav = document.querySelector('.main-nav');
+        
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+
+        // How It Works language switcher
+        const langBtns = document.querySelectorAll('.lang-btn');
+        const codeContent = document.getElementById('code-content');
+        
+        const codeSnippets = {
+            python: `<span class="keyword">from</span> cortex <span class="keyword">import</span> Agent\n\n<span class="comment"># Import and initialize your AI agent</span>\nagent = <span class="function">Agent</span>(\n    name=<span class="string">"CustomerSupport"</span>,\n    model=<span class="string">"gpt-4"</span>,\n    tools=[<span class="string">"email"</span>, <span class="string">"chat"</span>, <span class="string">"analytics"</span>]\n)\n\n<span class="comment"># Deploy instantly</span>\nagent.<span class="function">deploy</span>()`,
+            javascript: `<span class="keyword">import</span> { Agent } <span class="keyword">from</span> <span class="string">'cortex'</span>;\n\n<span class="comment">// Import and initialize your AI agent</span>\n<span class="keyword">const</span> agent = <span class="keyword">new</span> <span class="function">Agent</span>({\n    name: <span class="string">'CustomerSupport'</span>,\n    model: <span class="string">'gpt-4'</span>,\n    tools: [<span class="string">'email'</span>, <span class="string">'chat'</span>, <span class="string">'analytics'</span>]\n});\n\n<span class="comment">// Deploy instantly</span>\n<span class="keyword">await</span> agent.<span class="function">deploy</span>();`,
+            java: `<span class="keyword">import</span> com.cortex.Agent;\n\n<span class="comment">// Import and initialize your AI agent</span>\nAgent agent = <span class="keyword">new</span> Agent.<span class="function">Builder</span>()\n    .<span class="function">name</span>(<span class="string">"CustomerSupport"</span>)\n    .<span class="function">model</span>(<span class="string">"gpt-4"</span>)\n    .<span class="function">tools</span>(<span class="string">"email"</span>, <span class="string">"chat"</span>, <span class="string">"analytics"</span>)\n    .<span class="function">build</span>();\n\n<span class="comment">// Deploy instantly</span>\nagent.<span class="function">deploy</span>();`,
+            cpp: `<span class="keyword">#include</span> <span class="string">&lt;cortex/agent.h&gt;</span>\n\n<span class="comment">// Import and initialize your AI agent</span>\n<span class="keyword">int</span> <span class="function">main</span>() {\n    cortex::Agent agent(\n        <span class="string">"CustomerSupport"</span>,\n        <span class="string">"gpt-4"</span>,\n        {<span class="string">"email"</span>, <span class="string">"chat"</span>, <span class="string">"analytics"</span>}\n    );\n    \n    <span class="comment">// Deploy instantly</span>\n    agent.<span class="function">deploy</span>();\n    <span class="keyword">return</span> <span class="number">0</span>;\n}`,
+            ruby: `<span class="keyword">require</span> <span class="string">'cortex'</span>\n\n<span class="comment"># Import and initialize your AI agent</span>\nagent = Cortex::Agent.<span class="function">new</span>(\n    name: <span class="string">'CustomerSupport'</span>,\n    model: <span class="string">'gpt-4'</span>,\n    tools: [<span class="string">'email'</span>, <span class="string">'chat'</span>, <span class="string">'analytics'</span>]\n)\n\n<span class="comment"># Deploy instantly</span>\nagent.<span class="function">deploy</span>`
+        };
+        
+        langBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                langBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const lang = btn.dataset.lang;
+                codeContent.innerHTML = codeSnippets[lang];
+            });
+        });
+        
+        // Set initial code
+        codeContent.innerHTML = codeSnippets.python;
+
+        // Pricing toggle
+        const toggleBtns = document.querySelectorAll('.toggle-btn');
+        const prices = document.querySelectorAll('.price');
+        const billingInfos = document.querySelectorAll('.billing-info');
+        
+        toggleBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                toggleBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const period = btn.dataset.period;
+                
+                prices.forEach(price => {
+                    price.textContent = '$' + price.dataset[period];
+                });
+                
+                billingInfos.forEach(info => {
+                    info.textContent = period === 'yearly' ? 'Billed yearly' : 'Billed monthly';
+                });
+            });
+        });
+
+        // FAQ accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const isActive = item.classList.contains('active');
+                
+                faqQuestions.forEach(q => q.parentElement.classList.remove('active'));
+                
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Footer animation
+        const footerHero = document.querySelector('.footer-hero');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.3 });
+        
+        if (footerHero) {
+            observer.observe(footerHero);
+        }
+    </script>
+</body>
+</html>
